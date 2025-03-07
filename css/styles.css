@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: 'Arkanoid';
+    src: url('./font/ARKANOID.TTF') format('truetype');  
+  }
+  
+@media screen and (min-width: 60vw) {
+.title {
+    font-family:'arkanoid', sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    /* display: flex; */
+    text-shadow: 3px 3px 0px red;
+    margin: 20px 0;
+} }
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    width: 80dvh;
+    height: 100dvh;
+    left: calc(50dvw - 40dvh);
+    padding-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.powerups {
+    margin: 30px 0;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.powerup span {
+    font-weight: bold;
+}
+
+.red { color: red; }
+.orange { color: orange; }
+.gray { color: gray; }
+.blue { color: #00aaff; }
+.green { color: #00ff00; }
+
+.start {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+    text-shadow: 2px 2px 0px white;
+}
+
+.options {
+    font-size: 16px;
+    color: yellow;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.brand {
+    font-size: 32px;
+    color: red;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0px white;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 20px;
+    color: yellow;
+}
+
+.footer span {
+    color: red;
+}
+
+.flex-container {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container>div {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 25dvh;
+    margin: 10px;
+    /* text-align: center; */
+    font-size: 12px;
+  }
+  
+  #powerupgroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .block {
+    display: inline-block;
+    height: 15px;
+    width: 100px;
+    background-color: #ffffff;
+    
+  }
